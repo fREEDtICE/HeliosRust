@@ -1,6 +1,7 @@
 { pkgs }: {
 	deps = [
-		pkgs.sudo
+		pkgs.vimHugeX
+  pkgs.sudo
   pkgs.rustc
 		pkgs.rustfmt
 		pkgs.cargo
